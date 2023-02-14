@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.0.1//EN
+N:魏;子凌;;;
+FN:子凌 魏
+EMAIL;type=INTERNET;type=WORK;type=pref:ziling@sparklab.tw
+TEL;type=CELL;type=VOICE;type=pref:0981468957
+TEL;type=WORK;type=VOICE:02-2351-2750
+item1.URL;type=pref:https://line.me/ti/p/4IHkAapkPe
+item1.X-ABLabel:line
+END:VCARD

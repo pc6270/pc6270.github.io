@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.0.1//EN
+N:趙;珮妤;;;
+FN:珮妤 趙
+EMAIL;type=INTERNET;type=WORK;type=pref:chaopeiyu@sparklab.tw
+TEL;type=CELL;type=VOICE;type=pref:0910413256
+TEL;type=WORK;type=VOICE:02-2351-2750
+item1.URL;type=pref:https://line.me/ti/p/~pafish6270
+item1.X-ABLabel:line
+END:VCARD

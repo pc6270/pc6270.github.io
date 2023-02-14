@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.0.1//EN
+N:夏;芯;;;
+FN:芯 夏
+EMAIL;type=INTERNET;type=WORK;type=pref:rileyhsia@sparklab.tw
+TEL;type=CELL;type=VOICE;type=pref:0963-524-503
+TEL;type=WORK;type=VOICE:02-23512750
+item1.URL;type=pref:https://line.me/ti/p/RPJUa0QGw_
+item1.X-ABLabel:line
+END:VCARD
