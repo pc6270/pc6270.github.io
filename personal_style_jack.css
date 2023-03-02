@@ -72,7 +72,7 @@ html,body{
 	font-size:4em;
 	animation: ticker 50s infinite linear;
 	animation-delay: -50s;
-	background-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,1);
 }
 
 .ticker__item {
@@ -82,7 +82,7 @@ html,body{
 	position: relative;
 	box-sizing: border-box;
 	
-	color: #000;
+	color: #fff;
 
 }
 

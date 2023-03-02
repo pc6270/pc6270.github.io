@@ -813,7 +813,7 @@ li{
 }
 
 
-#back2top:mouseleave {
+#back2top:mouseout {
 	background-image: url("./image/TOP_Btn.png");
 	transition: 0.2s;
 }
