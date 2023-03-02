@@ -805,7 +805,7 @@ li{
 
 }
 
-#back2top:hover #back2top:active {
+#back2top:hover {
 	background-image: url("./image/TOP_Btn_active.png");
 	transition: 0.2s;
 	transform: translate(0.1em, 0.1em);
