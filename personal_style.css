@@ -50,6 +50,7 @@ html,body{
 	border-left: 10px solid #C4FD08;
 	overflow: hidden; 
 	z-index: 99;
+	background-color: rgba(0,0,0,1);
 }
 
 .ticker {
@@ -57,21 +58,22 @@ html,body{
 	width: 10vw;
 	height: 100%;
     text-align: center;
+    margin-left: 5%;
 
 }
 
 
 .ticker__list {
-	width: 100%;
+	width: 90%;
 	height: auto;
 	display: flex;
 	flex-direction: column;
 	flex-wrap:wrap;
 	
-	font-size:4em;
+	font-size:3em;
 	animation: ticker 50s infinite linear;
 	animation-delay: -50s;
-	background-color: rgba(0,0,0,1);
+	/*background-color: rgba(0,0,0,1);*/
 }
 
 .ticker__item {
@@ -117,7 +119,7 @@ html,body{
 	width: 100%;
 	height: 15%;
 	display: block;
-	background-image: url("./image/Logo_personal.svg"); 
+	background-image: url("./image/logo_personal.svg"); 
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -167,7 +169,7 @@ html,body{
     padding-top: 2%;
 	font-size: 3vh;
 	letter-spacing: 5px;
-	font-weight: 900;
+	font-weight: 600;
  }
 
   .contact{
@@ -215,52 +217,52 @@ html,body{
 	/*background-color: blue;*/
 }
 
-.type:hover{
+.type:ontouchstart{
 	background-color: #BFBFBF;
 	transform: scale(0.98);
 	transform: translateY(3%);
 	transition: 0.01s;
 }
 
-.type:hover .type_text{
+.type:ontouchstart .type_text{
 	color: #C4FD08;
 	transition: 0.01s;
 
 }
 
-.type:mouseout .type_text{
+.type:ontouchend .type_text{
 	color: black;
 	
 }
 
 
 
-#mail:hover{
+#mail:ontouchstart{
 	background-image: url("./image/icon_mail02_g.svg"); 
 	transition: 0.01s;
 }
 
-#mail:mouseout {
+#mail:ontouchend {
 	background-image: url("./image/icon_mail02.svg"); 
 	transition: 0.01s;
 }
 
-#line:hover{
+#line:ontouchstart{
 	background-image: url("./image/icon_line02_g.svg");
 	transition: 0.01s; 
 }
 
-#line:mouseout {
+#line:ontouchend {
 	background-image: url("./image/icon_line02.svg"); 
 	transition: 0.01s;
 }
 
-#phone:hover{
+#phone:ontouchstart{
 	background-image: url("./image/icon_phone03_g.svg"); 
 	transition: 0.01s;
 }
 
-#phone:mouseout {
+#phone:ontouchend {
 	background-image: url("./image/icon_phone03.svg"); 
 	transition: 0.01s;
 }
@@ -301,14 +303,13 @@ html,body{
 
 .link{
 	display: flex;
- 	
  	justify-content:center;
 	position: relative;
 	margin: auto;
 	margin-top: 0;
 	margin-bottom: 0;
 	width: 70%;
-	height: 15%;
+	height: 12%;
 	padding-top: 3%;
 	/*background-color: red;*/
  }
@@ -391,34 +392,71 @@ html,body{
 
 }
 
-.link01:hover{
+.link01:ontouchstart{
 	transform: scale(0.97);
-	transition: 0.2s;
+	transition: 0.1s;
 }
 
-.link01:hover .link_img  {
+.link01:ontouchstart .link_img  {
 	background-image: url("./image/link_active.svg");
-	transition: 0.2s;
+	transition: 0.1s;
 
 }
 
 
-.link01:hover .link_text{
+.link01:ontouchstart .link_text{
 	color: #BFBFBF;
 	transition: 0.1s;
 }
 
 
-.link01:hover .link_arrow{
+.link01:ontouchstart .link_arrow{
 	background-image: url("./image/link_arrow_active.svg");
 	transition: 0.1s;
 
 }
 
 
-.link01:hover .link_download{
+.link01:ontouchstart .link_download{
 	background-image: url("./image/download_g.svg");
 	transition: 0.1s;
+
+}
+
+@media (any-pointer:coarse){
+	.link01:ontouchstart{
+		transform: scale(0.97);
+		transition: 0.1s;
+	}
+
+	.link01:ontouchstart .link_img  {
+		background-image: url("./image/link_active.svg");
+		transition: 0.1s;
+
+	}
+
+
+	.link01:ontouchstart .link_text{
+		color: #BFBFBF;
+		transition: 0.1s;
+	}
+
+
+	.link01:ontouchstart .link_arrow{
+		background-image: url("./image/link_arrow_active.svg");
+		transition: 0.1s;
+
+	}
+
+
+	.link01:ontouchstart .link_download{
+		background-image: url("./image/download_g.svg");
+		transition: 0.1s;
+
+	}
+
+
+
 
 }
 
@@ -429,8 +467,8 @@ html,body{
 	height: 40%;
 	top: -35%;
 	color: black;
-	font-size: 5vw;
-	font-weight: 900;
+	font-size: 2.1vh;
+	font-weight: 600;
 	text-align: center;
 
 }
@@ -450,7 +488,7 @@ a:visited {
   text-align: left;
 }
 
-a:hover {
+a:ontouchstart {
   text-decoration: none;
   color: black;
   text-align: left;
