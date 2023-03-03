@@ -8,7 +8,8 @@ html,body{
 	background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 64%, rgba(196,253,11,1) 100%);
 	font-family: 'DM Sans', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    /*font-weight: 400;*/
+     -webkit-font-smoothing: subpixel-antialiased;
     overflow: hidden;
 }
 
@@ -20,9 +21,9 @@ html,body{
 	flex-flow: nowrap;
 	margin: 0;
 	padding: 0 ;
-	/*flex: 1 100%;*/
 	width: 100%;
 	height: 100%;
+	margin-bottom: 20px;
 	/*background-color: green;*/
 
 }
@@ -118,16 +119,17 @@ html,body{
 	display: block;
 	position: relative;
 	width: 100%;
-	height: 18%;
+	height: 15%;
 	display: block;
-	background-image: url("./image/Logo_personal.svg"); 
+	background-image: url("./image/logo_personal.svg"); 
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 
-	background-size: 90% 100%;
+	background-size: 90% 70%;
 	border-bottom: 10px solid #000;
 	margin-top:30px; 
+	margin-bottom: 0px;
 	
 	/*background-color: red;*/
  }
@@ -143,7 +145,7 @@ html,body{
     padding-top: 5%;
 	font-size: 3vh;
 	letter-spacing: 5px;
-	font-weight: 600;
+	/*font-weight: 600;*/
  }
 
   .profile_pic{
@@ -173,7 +175,7 @@ html,body{
     padding-top: 2%;
 	font-size: 3vh;
 	letter-spacing: 5px;
-	font-weight: 600;
+	/*font-weight: 600;*/
  }
 
   .contact{
@@ -472,7 +474,7 @@ html,body{
 	top: -35%;
 	color: black;
 	font-size: 2.1vh;
-	font-weight: 600;
+	/*font-weight: 600;*/
 	text-align: center;
 
 }

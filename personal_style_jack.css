@@ -8,7 +8,8 @@ html,body{
 	background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 64%, rgba(196,253,11,1) 100%);
 	font-family: 'DM Sans', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    /*font-weight: 400;*/
+     -webkit-font-smoothing: subpixel-antialiased;
     overflow: hidden;
 }
 
