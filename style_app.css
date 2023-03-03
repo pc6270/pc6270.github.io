@@ -731,8 +731,6 @@ li{
 
 
 #hands{
-
-	/*display: block;*/
 	position: absolute;
 	background-image: url("./image/hands.png");
 	background-size: contain;
@@ -748,7 +746,6 @@ li{
 }
 
 #text{
-	/*display: block;*/
 	position: absolute;
 	background-image: url("./image/contact_text.png");
 	background-size: contain;
@@ -769,7 +766,7 @@ li{
 	justify-content: center;
 
 	
-	line-height: 20%;
+	
 	margin: auto;
 	margin-top: 50px;
 	
@@ -781,13 +778,9 @@ li{
 	border-width: 6px;
 	border-radius: 120px;
 	box-shadow: 0.5em 0.5em 0.5em  rgba(0, 0, 0, 0.2);
-
-
-
-
-	
-
 }
+
+
 #back2top{
 	cursor: grab;
 	display: flex;
@@ -813,7 +806,9 @@ li{
 }
 
 
-#back2top:mouseout {
+
+
+#back2top:mouseleave {
 	background-image: url("./image/TOP_Btn.png");
 	transition: 0.2s;
 }
@@ -844,7 +839,7 @@ a:hover {
 	}
 
 	#back2top:hover {
-	background-image: url("../image/TOP_Btn_active.png");
+	background-image: url("./image/TOP_Btn_active.png");
 	transition: 0.2s;
 	transform: translate(0.1em, 0.1em);
 	}
@@ -865,7 +860,9 @@ a:active {
 	font-size: 33px; 
 	text-align: left;
 	top: -15px;
+	/*line-height: 30%;*/
 	/*background-color: red;*/
+	height: 33px;
 }
 
 
