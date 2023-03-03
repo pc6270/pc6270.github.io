@@ -870,9 +870,9 @@ a:active {
 	background-repeat:no-repeat;
 	background-image:url("./image/icon_mail.png");
 	background-size: 10%;
-	background-position: 0 2em;
+	background-position: 0 2.5em;
 	text-indent: 80px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 	width: 87%;
 	height: 15%;
 	align-self:center;
@@ -885,7 +885,7 @@ a:active {
 	background-size: 9%;
 	background-position: 0 2em;
 	text-indent: 80px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 	width: 87%;
 	height: 15%;
 	align-self:center;
@@ -898,7 +898,7 @@ a:active {
 	background-size: 9%;
 	background-position: 0 2.2em;
 	text-indent: 80px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 	width: 87%;
 	height: 15%;
 	align-self:center;
